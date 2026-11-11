@@ -1,0 +1,95 @@
+
+body
+{
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    color: #333333;
+    margin: 20px;
+}
+
+h1
+{
+    color: darkblue;
+    text-align: center;
+}
+
+h2
+{
+    color: darkgreen;
+    border-bottom: 2px solid darkgreen;
+    padding-bottom: 5px;
+}
+
+p
+{
+    line-height: 1.5;
+}
+
+ul
+{
+    background-color: white;
+    padding: 20px 40px;
+}
+
+a
+{
+    color: darkblue;
+}
+
+a:hover
+{
+    color: red;
+}
+
+.vriendentabel
+{
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff;
+    border: 2px solid #652299;
+    border-radius: 6px;
+}
+
+.vriendentabel th, .vriendentabel td
+{
+    padding: 6px 10px;
+}
+
+.vriendentabel thead th
+{
+    background-color: #652299;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    border-left: 2px solid #714399;
+}
+
+.vriendentabel thead th:first-child
+{
+    border-left: none;
+}
+
+.vriendentabel tbody td
+{
+    color: #4D1A75;
+    border-left: 3px solid #E7BDFF;
+    font-size: 15px;
+}
+
+.vriendentabel tbody .alt td
+{
+    background-color: #F4E3FF;
+    color: #4D1A75;
+}
+
+.vriendentabel tbody td:first-child
+{
+    border-left: none;
+}
+
+.onbekend
+{
+    background-color: red;
+}
