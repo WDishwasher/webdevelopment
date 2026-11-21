@@ -1,0 +1,16 @@
+
+.container {
+    overflow: auto;
+}
+
+.kolom {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.inhoud {
+    border: 1px solid black;
+    padding: 10px;
+}

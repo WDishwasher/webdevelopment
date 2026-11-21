@@ -1,0 +1,17 @@
+.cd {
+    font-weight: bold;
+}
+
+.artist {
+    font-style: italic;
+}
+#elixirs a:hover {
+    background-color: brown;
+    color: white;
+}
+footer {
+    clear: both;
+    text-align: center;
+    font-size: 50%;
+    padding: 10px;
+}
