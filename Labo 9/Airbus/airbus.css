@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+.page {
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+.top {
+    height: 200px;
+    background-image: url("images/bgsky3.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: darkblue;
+    position: relative;
+    overflow: hidden;
+}
+
+.top h1 {
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.top p {
+    font-size: 240%;
+    font-weight: bold;
+    margin: 20px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.top img {
+    position: absolute;
+    right: 250px;
+    bottom: 60px;
+    z-index: 2;
+}
+
+
+.content {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.main-content {
+    flex: 3;
+    min-width: 0;
+}
+
+
+.news {
+    flex: 1;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+    min-width: 0;
+}
+
+.news p {
+    color: #666666;
+    font-size: 90%;
+    padding: 0 10px;
+}
+
+.news h2 {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    font-size: 120%;
+    margin: 10px 0;
+}
+
+
+.introduction {
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+    color: black;
+}
+
+.introduction img {
+    width: 100px;
+    height: 80px;
+    margin: 20px;
+}
+
+.introduction p {
+    text-align: justify;
+    margin: 20px 30px 20px 0;
+    font-size: 90%;
+}
+
+.introduction span {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 180px);
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    background-color: #999999;
+}
+
+.foto {
+    background-color: white;
+    padding: 10px;
+    border: 1px dashed #999999;
+}
+
+.foto img {
+    display: block;
+    width: 180px;
+    height: 180px;
+}
+
+
+.bottom {
+    display: flex;
+    background-color: #666666;
+    color: white;
+    line-height: 2em;
+}
+
+.block {
+    flex: 1;
+    padding-left: 120px;
+}
+
+.bottom a {
+    color: white;
+}
+
+.bottom a:hover {
+    color: red;
+}
+
+
+.copyright {
+    text-align: center;
+    background-color: white;
+    color: black;
+}
